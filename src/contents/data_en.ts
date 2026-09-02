@@ -316,7 +316,10 @@ export const allData: Data[] = [
         filename: '2023_16b_ruijisei',
       },
     ],
-    documents: [{ filename: '16.pdf' }],
+    documents: [
+      { filename: '16.pdf' },
+      { label: 'Related Documents', filename: '16_01_material.pdf' },
+    ],
   },
   {
     id: 17,
@@ -426,7 +429,9 @@ export const allData: Data[] = [
         buttonLabel: 'Story & Commentary',
       },
     ],
-    documents: [{ filename: '22.pdf' }],
+    documents: [{ filename: '22.pdf' },
+      { label: 'Related Documents', filename: '22_01_material.pdf' },
+    ],
   },
   {
     id: 23,
